@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Karla',sans-serif;
+}
+
+a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+body{
+    background: hsl(204, 43%, 93%);
+    font-size: 16px;
+    height: 100vh;
+}
+
+.box{
+    margin-top: 12%;
+    margin-left: 5%; 
+    width: 90%;
+}
+
+.box1{
+    background: #fff;
+    padding: 8%;
+    box-shadow: 0px 10px 17px -10px #888888;
+}
+
+.title{
+    color: hsl(179, 67%, 43%);
+    font-weight: 700;
+}
+
+.tag{
+    color: hsl(71, 73%, 54%);
+    font-weight: 400;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.matter{
+    color: hsl(218, 22%, 67%)
+}
+
+.box2{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    box-shadow: 0px 10px 17px -10px #888888;
+}
+
+ul{
+    padding: 10%;
+    list-style: none;
+    float: right;
+    background: hsl(179, 49%, 50%);
+    padding: 10%;
+}
+
+li{
+    color: hsl(204, 43%, 93%);
+}
+
+.subscription{
+    padding: 10%;
+    background: hsl(179, 67%, 43%);
+    float: left;
+    color: hsl(203, 44%, 93%);
+}
+
+.dollar{
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.amount{
+    color: hsl(179, 73%, 61%);
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+button{
+    padding: .5rem 1rem;
+    width: 100%;
+    margin-top: 10%;
+    border-radius: 5px;
+    background: hsl(71, 73%, 54%);
+    color: white;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0px 10px 17px -10px #888888;
+}
+
+.month{
+    color: white;
+}
+
+.why{
+    padding-bottom: 5%;
+    color: white;
+    font-size: 16px;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center;
+    margin-bottom: 2%;
+    margin-top: 2%;
+ }
+
+ @media screen and (min-width: 650px){
+     .box2{
+         display: grid;
+         grid-template-columns: 50% 50%;
+     }
+     .box{
+         padding-left: 20%;
+         padding-right: 20%;
+     }
+ }
